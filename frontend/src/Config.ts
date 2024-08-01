@@ -1,2 +1,2 @@
-export const BaseAPI = 'https://api.float32.app'
-export const BaseWeb = 'https://float32.app'
+export const BaseAPI = import.meta.env.API_BASE
+export const BaseWeb = import.meta.env.BASE
